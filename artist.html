@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artists - BeatVibes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #FFD700;
+        }
+        .artist-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .artist-card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .artist-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+        }
+        .artist-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .artist-name {
+            margin: 15px 0 10px;
+            font-size: 1.5rem;
+            color: #FFD700;
+        }
+        .artist-achievements {
+            font-size: 1rem;
+            color: #cccccc;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meet Our Artists</h1>
+        <div class="artist-grid">
+            <!-- Artist 1 -->
+            <div class="artist-card">
+                <img src="a9.jpeg" alt="Artist 1" class="artist-image">
+                <h2 class="artist-name">ALOK</h2>
+                <p class="artist-achievements">Multiple chart-topping singles, including "Hit Song 1" and "Hit Song 2". Winner of "Best Artist of the Year 2023" award.</p>
+                <audio controls>
+                    <source  src="song/Silascute-Deep-down.mp3" type="audio/mpeg">
+                  </audio>
+            </div>
+            <!-- Artist 2 -->
+            <div class="artist-card">
+                <img src="a10.jpg" alt="Artist 2" class="artist-image">
+                <h2 class="artist-name">DJ KSHMR</h2>
+                <p class="artist-achievements">Known for electrifying live performances. Creator of the "Top Album 2022" with record-breaking sales.</p>
+                <audio controls>
+                    <source  src="song/DJ Snake - Run It (feat. Rick Ross & Rich Brian).mp3" type="audio/mpeg">
+                  </audio>
+            </div>
+            <!-- Artist 3 -->
+            <div class="artist-card">
+                <img src="a8.jpg" alt="Artist 3" class="artist-image">
+                <h2 class="artist-name">DJ SNAKE</h2>
+                <p class="artist-achievements">Innovative producer and performer with collaborations on global hits.</p>
+                <audio controls>
+                    <source  src="song/DJ Snake - SG (with Ozuna, Megan Thee Stallion & LISA of BLACKPINK).mp3" type="audio/mpeg">
+                  </audio>
+            </div>
+            <!-- Artist 4 -->
+            <div class="artist-card">
+                <img src="a7.jpeg" alt="Artist 4" class="artist-image">
+                <h2 class="artist-name">DRAKE</h2>
+                <p class="artist-achievements">Beloved for soulful lyrics and winning "Best Newcomer" in BeatVibes Awards.</p>
+                <audio controls>
+                    <source  src="song/DJ Snake - Taki Taki (feat. Selena Gomez, Ozuna & Cardi B).mp3" type="audio/mpeg">
+                  </audio>
+            </div>
+            <!-- Artist 5 -->
+            <div class="artist-card">
+                <img src="a6.jpeg" alt="Artist 5" class="artist-image">
+                <h2 class="artist-name">ROCKBAND</h2>
+                <p class="artist-achievements">Grammy-nominated artist with iconic dance anthems loved worldwide.</p>
+                <audio controls>
+                    <source  src="song/DJ Snake - U Are My High (1).mp3" type="audio/mpeg">
+                  </audio>
+            </div>
+            <!-- Artist 6 -->
+            <div class="artist-card">
+                <img src="a5.jpeg" alt="Artist 6" class="artist-image">
+                <h2 class="artist-name">GUITARIST</h2>
+                <p class="artist-achievements">Trailblazer in electronic music with multiple festival headline appearances.</p>
+                <audio controls>
+                    <source  src="song/DJ Snake, J Balvin - Loco Contigo (feat. J. Balvin & Tyga).mp3" type="audio/mpeg">
+                  </audio>
+            </div>
+            <!-- Artist 7 -->
+            <div class="artist-card">
+                <img src="a4.jpeg" alt="Artist 7" class="artist-image">
+                <h2 class="artist-name">ALKA YAGNA</h2>
+                <p class="artist-achievements">Award-winning composer and vocalist with several platinum records.</p>
+                <audio controls>
+                    <source  src="song/DJ Snake, Lil Jon - Turn Down for What.mp3.crdownload" type="audio/mpeg">
+                  </audio>
+            </div>
+            <!-- Artist 8 -->
+            <div class="artist-card">
+                <img src="a3.jpg" alt="Artist 8" class="artist-image">
+                <h2 class="artist-name">SITAR MASTER</h2>
+                <p class="artist-achievements">Pop sensation with over 10 million global streams on BeatVibes platform.</p>
+                <audio controls>
+                    <source  src="song/Major Lazer - Lean On (feat. MØ & DJ Snake).mp3" type="audio/mpeg">
+                  </audio>
+            </div>
+            <!-- Artist 9 -->
+            <div class="artist-card">
+                <img src="a2.jpg" alt="Artist 9" class="artist-image">
+                <h2 class="artist-name">KK</h2>
+                <p class="artist-achievements">Known for unique blend of genres and critically acclaimed albums.</p>
+                <audio controls>
+                    <source  src="song/Rangs-Deep-Keep-it-SecretDeep-House.mp3" type="audio/mpeg">
+                  </audio>
+            </div>
+            <!-- Artist 10 -->
+            <div class="artist-card">
+                <img src="a1.jpeg" alt="Artist 10" class="artist-image">
+                <h2 class="artist-name">SONU NIGAM</h2>
+                <p class="artist-achievements">Rising star celebrated for their breakout hit "Summer Beats".</p>
+                <audio controls>
+                    <source  src="song/DJ Snake - U Are My High.mp3" type="audio/mpeg">
+                  </audio>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
